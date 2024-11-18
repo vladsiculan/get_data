@@ -15,6 +15,10 @@ def get_name_and_age(person_id):
     """Return person name and age"""
     return DATA[person_id]
 
+
 if __name__ == "__main__":
-    person = get_name_and_age(112)
-    print(person)
+    try:
+        person = get_name_and_age(112)
+        print(person)
+    except KeyError:
+        print("Not a good user id")
