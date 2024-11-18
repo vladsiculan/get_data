@@ -30,6 +30,10 @@ def read_data(file):
     return content
 
 
+def read_csv_data(file) -> pd.dataframe:
+    """Return data from csv"""
+    return pd.read_csv(file)
+
 if __name__ == "__main__":
     try:
         person = get_name_and_age(112)
