@@ -1,4 +1,5 @@
 """Get person data"""
+from PIL.ImageCms import Flags
 
 DATA = {
      111: {
