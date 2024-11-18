@@ -31,7 +31,7 @@ def read_data(file):
     return content
 
 
-def read_csv_data(file) -> pd.dataframe:
+def read_csv_data(file) -> pd.DataFrame:
     """Return data from csv"""
     return pd.read_csv(file)
 
